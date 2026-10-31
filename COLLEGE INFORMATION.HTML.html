@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NRI University</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f7ff;
+        }
+
+        nav {
+            background: #101d42;
+            padding: 18px;
+            text-align: center;
+        }
+
+        nav a {
+            color: ligthblue;
+            text-decoration: none;
+            margin: 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd166;
+        }
+
+        header {
+            background: linear-gradient(to right, #142850, #0077b6);
+            color: lightblue;
+            text-align: center;
+            padding: 45px 15px;
+        }
+
+       
+
+header img {
+    width: 85%;
+    max-width: 650px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+        header h1 {
+            font-size: 40px;
+            color: #ffd166;
+        }
+
+        button {
+            background: #ffd166;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        section {
+            padding: 25px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #142850;
+        }
+
+        .card {
+            display: inline-block;
+            background: lightblue;
+            width: 230px;
+            margin: 12px;
+            padding: 12px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px #ccc;
+            vertical-align: top;
+        }
+
+        .card img {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        #admission {
+            background: #dff6ff;
+        }
+
+        footer {
+            background: #101d42;
+            color: lightblue;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 8px;
+            }
+
+            header h1 {
+                font-size: 30px;
+            }
+
+            .card {
+                width: 85%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#campus">Campus</a>
+    <a href="#admission">Admissions</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<header id="home">
+    <h1>NRI UNIVERSITY</h1>
+    <p>Dream Big • Learn More • Achieve Greatness</p>
+
+    <img
+        src=
+"https://nriit.edu.in/wp-content/uploads/2026/03/Untitled-design-Picsart-CropImage.jpg">
+
+    <h3>Welcome to Your Future!</h3>
+    <p>Building Knowledge, Skills and Bright Careers</p>
+
+    <button onclick="location.href='#admission'">
+        Explore Admissions
+    </button>
+</header>
+
+<section id="about">
+    <h2>About Our University</h2>
+    <p>
+        NRI University, Agiripalli, Andhra Pradesh, aims to
+        encourage learning, innovation, creativity and excellence.
+        Our campus provides opportunities for students to develop
+        their knowledge and skills.
+    </p>
+</section>
+
+<section id="courses">
+    <h2>Our Departments & Courses</h2>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500"
+        alt="Computer laboratory">
+        <h3>Computer Science</h3>
+        <p>B.Tech CSE and modern computing.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500"
+        alt="Electronics circuit">
+        <h3>Cyber Security</h3>
+        <p>Learn digital security and networking.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500"
+        alt="Engineering students working">
+        <h3>Electronics</h3>
+        <p>Explore electronics and technology.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Our Faculty</h2>
+
+    <div class="card">
+        <img src=
+"https://www.pace.edu/sites/default/files/styles/16_9_1600x900/public/2023-06/faculty-info-for-hero.jpg?h=854a7be2&itok=seopHDg7">       
+ alt="Faculty member">
+        <h3>Experienced Faculty</h3>
+        <p>Learn from dedicated teachers and mentors.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=500"
+        alt="Students learning">
+        <h3>Student Mentoring</h3>
+        <p>Guidance for academic and career development.</p>
+    </div>
+</section>
+
+<section id="campus">
+    <h2>Campus Life</h2>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=500"
+        alt="Library">
+        <h3>Library</h3>
+        <p>A place to read, learn and discover.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=500"
+        alt="College students">
+        <h3>College Events</h3>
+        <p>Technical fests, cultural programs and workshops.</p>
+    </div>
+</section>
+
+<section id="admission">
+    <h2>Admissions 2026-27</h2>
+    <p>Step 1: Check course eligibility.</p>
+    <p>Step 2: Submit the application and required documents.</p>
+    <p>Step 3: Complete the admission process.</p>
+    <button onclick="alert('Please contact the university for official admission details.')">
+        Apply Now
+    </button>
+</section>
+
+<footer id="contact">
+    <h2 style="color:#ffd166;">Contact Us</h2>
+    <p><b>NRI University</b></p>
+    <p>📍 Agiripalli, Andhra Pradesh, India</p>
+    <p>📧 Contact the university for official email details.</p>
+    <p>© 2026 NRI University Website</p>
+</footer>
+
+</body>
+</html>
