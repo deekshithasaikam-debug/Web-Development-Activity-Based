@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>VIBE - College Fest</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #100d27;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(120deg,#721aff,#ed35a4);
+}
+
+header h1 {
+    font-size: 45px;
+    margin: 10px;
+}
+
+nav {
+    background: #241b45;
+    padding: 18px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.banner {
+    text-align: center;
+    padding: 65px 20px;
+    background: linear-gradient(#0007,#0007),
+    url("https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1200");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner h2 {
+    font-size: 40px;
+    color: #ff66c4;
+}
+
+button {
+    background: #ed35a4;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+section {
+    padding: 25px;
+    text-align: center;
+}
+
+.events {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: #241b45;
+    width: 230px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #ed35a4;
+}
+
+.card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: #ff66c4;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td, th {
+    border: 1px solid #ed35a4;
+    padding: 12px;
+}
+
+form {
+    background: #241b45;
+    padding: 25px;
+    max-width: 350px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+footer {
+    background: #241b45;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>⚡ VIBE 2026 ⚡</h1>
+    <h3>The Ultimate College Fest</h3>
+    <p>Dream • Create • Celebrate</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#events">Events</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#rules">Rules</a>
+    <a href="#register">Register</a>
+</nav>
+
+<div class="banner" id="home">
+    <h2>WELCOME TO VIBE 2026</h2>
+    <h3>One Campus | Unlimited Memories</h3>
+    <p>Get Ready for Music, Technology and Fun!</p>
+    <button onclick="location.href='#register'">Join The Fest</button>
+</div>
+
+<section id="events">
+    <h1>🔥 OUR EVENTS</h1>
+
+    <h2>💻 Technical Events</h2>
+    <div class="events">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=400">
+            <h3>Code Battle</h3>
+            <p>Show your coding skills.</p>
+            <p>Coordinator: Rahul</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400">
+            <h3>Tech Quiz</h3>
+            <p>Test your technology knowledge.</p>
+            <p>Coordinator: Priya</p>
+        </div>
+
+    </div>
+
+    <h2>🎭 Cultural Events</h2>
+    <div class="events">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=400">
+            <h3>Dance Battle</h3>
+            <p>Show your dancing talent.</p>
+            <p>Coordinator: Sneha</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=400">
+            <h3>Singing Star</h3>
+            <p>Make the stage yours.</p>
+            <p>Coordinator: Arjun</p>
+        </div>
+
+    </div>
+
+    <h2>🎓 Workshops</h2>
+    <div class="events">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=400">
+            <h3>AI Workshop</h3>
+            <p>Explore Artificial Intelligence.</p>
+            <p>Coordinator: Kiran</p>
+        </div>
+    </div>
+</section>
+
+<section id="schedule">
+    <h1>📅 EVENT SCHEDULE</h1>
+
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Event</th>
+            <th>Venue</th>
+        </tr>
+        <tr>
+            <td>9:00 AM</td>
+            <td>Opening Ceremony</td>
+            <td>Main Stage</td>
+        </tr>
+        <tr>
+            <td>10:00 AM</td>
+            <td>Code Battle</td>
+            <td>Computer Lab</td>
+        </tr>
+        <tr>
+            <td>12:00 PM</td>
+            <td>Dance Competition</td>
+            <td>Auditorium</td>
+        </tr>
+        <tr>
+            <td>2:00 PM</td>
+            <td>AI Workshop</td>
+            <td>Seminar Hall</td>
+        </tr>
+        <tr>
+            <td>4:00 PM</td>
+            <td>Music Show</td>
+            <td>Main Stage</td>
+        </tr>
+    </table>
+</section>
+
+<section id="rules">
+    <h1>📌 FEST RULES</h1>
+    <p>✔ Carry your college ID card. Register before participating.
+ Maintain discipline.
+    Follow coordinator instructions.
+    Be on time for every event.
+</section>
+
+<section id="register">
+    <h1>📝 REGISTER NOW</h1>
+
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="text" placeholder="College Name" required>
+
+        <select required>
+            <option value="">Select Event</option>
+            <option>Code Battle</option>
+            <option>Tech Quiz</option>
+            <option>Dance Battle</option>
+            <option>Singing Star</option>
+            <option>AI Workshop</option>
+        </select>
+
+        <input type="tel" placeholder="Phone Number" required>
+
+        <button type="submit">Register Now 🚀</button>
+    </form>
+</section>
+
+<footer>
+    <h2>⚡ VIBE 2026 ⚡</h2>
+    <p>Where Talent Meets Celebration!</p>
+    <p>Contact: vibefest@gmail.com</p>
+    <p>© 2026 College Fest</p>
+</footer>
+
+</body>
+</html>
